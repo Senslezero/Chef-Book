@@ -1,0 +1,8 @@
+package com.example.myapplication.Listeners;
+
+import com.example.myapplication.Models.RandomrecipeApiResponse;
+
+public interface RandomRecipeResponseListener {
+    void didFetch(RandomrecipeApiResponse response, String message);
+    void didError(String message);
+}
